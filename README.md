@@ -1,4 +1,33 @@
-# Digital Forensic Analysis Report
+ Building a Virtual Cybersecurity Laboratory and Conducting Android Forensics
+
+1 PROJECT SCOPE:- Virtual Cybersecurity Lab Setup
+Objective: 
+To simulate a secure, real-world environment for offensive and defensive security testing through virtual machines. 
+Activities: 
+● Install a Type 2 hypervisor (e.g., VirtualBox, VMware Workstation/Player)
+● Create and configure two virtual machines:
+● Kali Linux (attacker environment)
+● Microsoft Windows 7 or 10 (target environment)
+● Establish internal virtual networking between VMs
+● Verify connectivity via ping tests, shared directories, and service enumeration
+
+
+Could you set up an internal network between Kali Linux and Windows VMs so they can talk to each other privately?
+
+Network
+network name- lab
+
+subnet-255.255.255.0
+
+kalilab - 192.168.10.10
+
+Windows - 192.168.10.11
+
+
+
+2: PROJECT SCOPE: Conducting Android Forensics
+
+Investigations
 
 ---
 
@@ -52,79 +81,3 @@ Android Analyzer (aLEAPP) Module:	4.22.1
 5. Tagged and bookmarked relevant findings.
 6. Exported final report and screenshots.
 
----
-
-## 🗂 Findings
-
-### 1. File System Overview
-
-- File system: ext4  
-- Partitions Detected: 3 (boot, system, data)  
-- Image Size: 667MB  
-
-### 2. User Data Recovered
-Case Summary
-Accounts: Device (3)
-Accounts: Phone (18)
-Call Logs (14)
-Contacts (7)
-Installed Programs (5)
-Messages (28)
-Tagged Files (0)
-Tagged Images (0)
-Tagged Results (0)
-Web Cookies (207)
-Web History (12)
-Web Search (4)
-
-
-### 4. Media Metadata (EXIF)
-
-- 97 images found with GPS coordinates
-- Device model: Samsung SM-A107F
-- Camera app used: Android default
-
-### 5. Deleted Files
-
-- 41 deleted files recovered
-- File types: .jpg, .mp4, .pdf
-- Recovery success: 80%
-
-### 6. Keyword Hits
-
-- Searched terms: "fraud", "bitcoin", "password"
-- 12 hits in SMS; 4 hits in WhatsApp
-
----
-
-## 🖼 Screenshots
-
-     
-
-(Include screenshots here from Autopsy showing bookmarks, keyword hits, etc.)
-
----
-
-## 🧾 Hash Verification
-
-*Original File:* android_image.iso  
-*SHA256 Hash:* f3b6c73f6b9e74d5d8c8cf1e13a3d7f4179876f09a12e7a8873b61e74aefb1ab  
-*Hash Verified:* ✅ Yes
-
----
-
-## ✅ Conclusion
-
-The Android image contained valuable evidence, including communications, media, and partially deleted data. No evidence of external tampering or rooting was found. The extracted artifacts are consistent with regular device usage and support ongoing investigative leads.
-
----
-
-## 📎 Appendices
-
-- Appendix A: Full file listing
-- Appendix B: Autopsy HTML and CSV exports
-- Appendix C: Chain of custody log (if applicable)
-
----
-
-## 🔚 End of Report
