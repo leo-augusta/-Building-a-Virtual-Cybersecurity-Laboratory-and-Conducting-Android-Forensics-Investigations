@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<AutopsyCase>
+  <SchemaVersion>6.0</SchemaVersion>
+  <CreatedDate>2025/07/03 12:53:28 (WAT)</CreatedDate>
+  <ModifiedDate>2025/07/03 12:53:33 (WAT)</ModifiedDate>
+  <CreatedByAutopsyVersion>4.22.1</CreatedByAutopsyVersion>
+  <SavedByAutopsyVersion>4.22.1</SavedByAutopsyVersion>
+  <Case>
+    <Name>dsa_forensic_project_20250703_125328</Name>
+    <DisplayName>DSA FORENSIC PROJECT</DisplayName>
+    <Number>007</Number>
+    <Examiner>Emmanuel Odunsi</Examiner>
+    <ExaminerPhone>+2348052022968</ExaminerPhone>
+    <ExaminerEmail>emmatok1@gmail.com</ExaminerEmail>
+    <CaseNotes>My First investigation</CaseNotes>
+    <CaseType>Single-user case</CaseType>
+    <Database/>
+    <CaseDatabase>autopsy.db</CaseDatabase>
+    <TextIndex/>
+  </Case>
+  <ContentProvider>
+    <Name/>
+  </ContentProvider>
+  <OriginalCase/>
+</AutopsyCase>
